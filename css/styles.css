@@ -529,7 +529,7 @@ img {
 .subscribe-btn {
   display: flex;
   margin: 0 auto;
-  man-width: 165px;
+  max-width: 165px;
   height: 40px;
   padding: 8px 24px;
   justify-content: center;
