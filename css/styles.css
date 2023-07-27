@@ -769,7 +769,7 @@ img {
 }
 
 .modal-field-wrapper {
-  margin-bottom: 8px;
+  margin-bottom: 16px;
 }
 
 .modal-field-label {
@@ -869,6 +869,14 @@ img {
   opacity: 0;
   top: 0;
   left: 0;
+}
+
+.visually-hidden {
+  position: absolute;
+  left: -9999px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
 }
 
 .checkbox-label {
