@@ -860,7 +860,7 @@ img {
 
 .privace-wrapper {
   position: relative;
-  /* margin-bottom: 24px; */
+  margin-bottom: 24px;
 }
 
 .checkbox-input {
@@ -880,7 +880,7 @@ img {
 }
 
 .checkbox-label {
-  display: flex;
+  display: inline-flex;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
