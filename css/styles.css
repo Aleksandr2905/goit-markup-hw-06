@@ -843,7 +843,11 @@ img {
   letter-spacing: 0.48px;
   border-radius: 4px;
   border: 1px solid rgba(46, 47, 66, 0.4);
+  background-color: transparent;
   outline: transparent;
+  transition-property: border-color;
+  transition-duration: var(--transition-duration);
+  transition-timing-function: var(--transition-function);
 }
 
 .modal-comment::placeholder {
@@ -856,6 +860,7 @@ img {
 
 .privace-wrapper {
   position: relative;
+  margin-bottom: 24px;
 }
 
 .checkbox-input {
@@ -869,16 +874,24 @@ img {
 .checkbox-label {
   display: flex;
   font-size: 12px;
-  margin-bottom: 24px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: var(--customers-color);
 }
 
 .checkbox-made {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   margin-right: 8px;
   width: 16px;
   height: 16px;
   border-radius: 2px;
+  fill: transparent;
   border: 1px solid rgba(46, 47, 66, 0.4);
+  transition-property: border-color, background-color, fill;
+  transition-duration: var(--transition-duration);
+  transition-timing-function: var(--transition-function);
 }
 
 .checkbox-made-icon {
@@ -916,4 +929,7 @@ img {
   background: var(--accent-color);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   color: var(--background-primary-color);
+  transition-property: background-color;
+  transition-duration: var(--transition-duration);
+  transition-timing-function: var(--transition-function);
 }
