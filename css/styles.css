@@ -773,6 +773,8 @@ img {
 }
 
 .modal-field-label {
+  display: block;
+  margin-bottom: 4px;
   color: var(--customers-color);
   font-size: 12px;
   font-weight: 400;
@@ -788,7 +790,11 @@ img {
   padding: 11px 38px;
   color: rgba(46, 47, 66, 0.4);
   border: 1px solid rgba(46, 47, 66, 0.4);
+  background-color: transparent;
   outline: transparent;
+  transition-property: border-color;
+  transition-duration: var(--transition-duration);
+  transition-timing-function: var(--transition-function);
 }
 
 .modal-input:focus,
@@ -818,6 +824,9 @@ img {
   top: 50%;
   left: 16px;
   transform: translateY(-50%);
+  transition-property: fill;
+  transition-duration: var(--transition-duration);
+  transition-timing-function: var(--transition-function);
 }
 
 .modal-comment {
