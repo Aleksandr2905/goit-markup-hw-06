@@ -769,7 +769,7 @@ img {
 }
 
 .modal-field-wrapper {
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 
 .modal-field-label {
@@ -903,6 +903,7 @@ img {
 }
 
 .checkbox-made-icon {
+  fill: #404bbf;
   opacity: 0;
   visibility: hidden;
 }
