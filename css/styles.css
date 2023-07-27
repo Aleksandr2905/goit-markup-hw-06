@@ -880,7 +880,7 @@ img {
 }
 
 .checkbox-label {
-  display: inline-flex;
+  /* display: flex; */
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
@@ -897,12 +897,13 @@ img {
   border-radius: 2px;
   fill: transparent;
   border: 1px solid rgba(46, 47, 66, 0.4);
-  transition-property: border-color, background-color, fill;
+  transition-property: background-color, border, fill;
   transition-duration: var(--transition-duration);
   transition-timing-function: var(--transition-function);
 }
 
 .checkbox-made-icon {
+  display: inline-flex;
   fill: #404bbf;
   opacity: 0;
   visibility: hidden;
