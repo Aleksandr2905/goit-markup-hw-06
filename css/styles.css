@@ -772,6 +772,10 @@ img {
   margin-bottom: 8px;
 }
 
+.modal-field-wrapper-coment {
+  margin-bottom: 16px;
+}
+
 .modal-field-label {
   display: block;
   margin-bottom: 4px;
@@ -880,7 +884,6 @@ img {
 }
 
 .checkbox-label {
-  /* display: flex; */
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
