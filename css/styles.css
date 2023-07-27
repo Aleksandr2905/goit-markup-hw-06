@@ -909,13 +909,13 @@ img {
 }
 
 .checkbox-input:checked + .checkbox-label .checkbox-made {
+  fill: #f4f4fd;
   border: 1px solid transparent;
   background-color: #404bbf;
   border: none;
 }
 
 .checkbox-input:checked + .checkbox-label .checkbox-made-icon {
-  fill: #f4f4fd;
   opacity: 1;
   visibility: visible;
 }
